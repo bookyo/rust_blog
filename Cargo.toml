@@ -1,0 +1,30 @@
+[package]
+name = "rust-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1", features = ["derive"] }
+mongodb = "2"
+jsonwebtoken = "8"
+dotenv = "0.15.0"
+actix-web-validator = "5.0.1"
+validator = { version = "0.16", features = ["derive"] }
+bcrypt = "0.13"
+log = "0.4.0"
+env_logger = "0.9.0"
+regex = "1"
+futures = "0.3"
+actix-files = "0.6.2"
+actix-multipart = "0.4.0"
+uuid = { version = "1.1.2", features = ["serde", "v4"] }
+actix-form-data = "0.6.2"
+sanitize-filename = "0.4.0"
+actix-cors = "0.6.2"
+
+[dependencies.chrono]
+version = "0.4.22"
+features = ["serde"]
