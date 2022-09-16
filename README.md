@@ -28,6 +28,10 @@ features:
 - login and register with jwt token authencation.
 - blog api with create, update, getOne, getMore and upload image.
 
+backend api git: https://github.com/bookyo/rust_blog
+
+front web git: https://github.com/bookyo/rust_blog_web
+
 api:
 - GET /blog
 - GET /blogs
