@@ -2,6 +2,8 @@
 
 This is a simple blog, backend powered by actic-web, frontend powerd by astro.
 
+use actic-web + mongodb + jwt.
+
 just rename .env.example to .env and edit
 ```
 MONGO_URL=mongodb://rust:rust@127.0.0.1:27017/rust
