@@ -27,10 +27,15 @@ features:
 - blog api with create, update, getOne, getMore and upload image.
 
 api:
-GET /blog
-GET /blogs
-POST /blog
-PATCH /blog
-POST /upload
-POST /login
-POST /register
+- GET /blog
+- GET /blogs
+- POST /blog
+- PATCH /blog
+- POST /upload
+- POST /login
+- POST /register
+
+deploy at: https://deno.com/deploy
+backend api Use oracle Free Tier: https://www.oracle.com/cloud/free/
+
+preview url: https://blog.zizhaidi.com
